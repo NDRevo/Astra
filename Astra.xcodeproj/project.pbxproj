@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5663CE7825CB19E100B04C0F /* WikiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE7725CB19E100B04C0F /* WikiView.swift */; };
+		5663CE7D25CB1D2800B04C0F /* LaunchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE7C25CB1D2800B04C0F /* LaunchesView.swift */; };
+		5663CE7F25CB1DC500B04C0F /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE7E25CB1DC500B04C0F /* Launch.swift */; };
+		5663CE8325CB1E1600B04C0F /* LaunchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE8225CB1E1600B04C0F /* LaunchViewCell.swift */; };
+		5663CE8525CB27C100B04C0F /* LaunchViewBigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE8425CB27C100B04C0F /* LaunchViewBigCell.swift */; };
+		5663CE9525CDAFDE00B04C0F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE9425CDAFDE00B04C0F /* SettingsView.swift */; };
+		5663CE9925CDBBF000B04C0F /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE9825CDBBF000B04C0F /* NotificationsView.swift */; };
+		5663CE9B25CDBC6F00B04C0F /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE9A25CDBC6F00B04C0F /* AppIconView.swift */; };
+		5663CE9D25CDBC9700B04C0F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE9C25CDBC9700B04C0F /* AboutView.swift */; };
+		5663CE9F25CDBCA500B04C0F /* TipJarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CE9E25CDBCA500B04C0F /* TipJarView.swift */; };
+		5663CEA325CDBCC600B04C0F /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CEA225CDBCC600B04C0F /* RateView.swift */; };
+		5663CEA625CDF34800B04C0F /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663CEA525CDF34800B04C0F /* FetchData.swift */; };
+		5663CEA825CDF53300B04C0F /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 5663CEA725CDF53300B04C0F /* sample.json */; };
+		56F6D77425CA0D5E0075800B /* AstraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D77325CA0D5E0075800B /* AstraApp.swift */; };
+		56F6D77625CA0D5E0075800B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D77525CA0D5E0075800B /* MainView.swift */; };
+		56F6D77825CA0D620075800B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F6D77725CA0D620075800B /* Assets.xcassets */; };
+		56F6D77B25CA0D620075800B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F6D77A25CA0D620075800B /* Preview Assets.xcassets */; };
+		56F6D78A25CA0D710075800B /* AstraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D78925CA0D710075800B /* AstraUITests.swift */; };
+		56F6D79A25CA0DAA0075800B /* MacAstraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D79925CA0DAA0075800B /* MacAstraApp.swift */; };
+		56F6D79C25CA0DAA0075800B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D79B25CA0DAA0075800B /* ContentView.swift */; };
+		56F6D79E25CA0DAC0075800B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F6D79D25CA0DAC0075800B /* Assets.xcassets */; };
+		56F6D7A125CA0DAC0075800B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F6D7A025CA0DAC0075800B /* Preview Assets.xcassets */; };
+		56F6D7AE25CA0E450075800B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D7AD25CA0E450075800B /* TabBarView.swift */; };
+		56F6D7B325CA0EDF0075800B /* LaunchesViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D7B225CA0EDF0075800B /* LaunchesViewContainer.swift */; };
+		56F6D7B825CA0EEA0075800B /* SettingsViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6D7B725CA0EEA0075800B /* SettingsViewContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56F6D78C25CA0D710075800B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F6D76825CA0D5E0075800B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F6D76F25CA0D5E0075800B;
+			remoteInfo = Astra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5663CE7725CB19E100B04C0F /* WikiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiView.swift; sourceTree = "<group>"; };
+		5663CE7C25CB1D2800B04C0F /* LaunchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesView.swift; sourceTree = "<group>"; };
+		5663CE7E25CB1DC500B04C0F /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		5663CE8225CB1E1600B04C0F /* LaunchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewCell.swift; sourceTree = "<group>"; };
+		5663CE8425CB27C100B04C0F /* LaunchViewBigCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewBigCell.swift; sourceTree = "<group>"; };
+		5663CE9425CDAFDE00B04C0F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5663CE9825CDBBF000B04C0F /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		5663CE9A25CDBC6F00B04C0F /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		5663CE9C25CDBC9700B04C0F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		5663CE9E25CDBCA500B04C0F /* TipJarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarView.swift; sourceTree = "<group>"; };
+		5663CEA225CDBCC600B04C0F /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		5663CEA525CDF34800B04C0F /* FetchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		5663CEA725CDF53300B04C0F /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		56F6D77025CA0D5E0075800B /* Astra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F6D77325CA0D5E0075800B /* AstraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstraApp.swift; sourceTree = "<group>"; };
+		56F6D77525CA0D5E0075800B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		56F6D77725CA0D620075800B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F6D77A25CA0D620075800B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56F6D77C25CA0D620075800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F6D78725CA0D710075800B /* AstraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F6D78925CA0D710075800B /* AstraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstraUITests.swift; sourceTree = "<group>"; };
+		56F6D78B25CA0D710075800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F6D79725CA0DAA0075800B /* MacAstra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAstra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F6D79925CA0DAA0075800B /* MacAstraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAstraApp.swift; sourceTree = "<group>"; };
+		56F6D79B25CA0DAA0075800B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56F6D79D25CA0DAC0075800B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F6D7A025CA0DAC0075800B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56F6D7A225CA0DAC0075800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F6D7A325CA0DAC0075800B /* MacAstra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacAstra.entitlements; sourceTree = "<group>"; };
+		56F6D7AD25CA0E450075800B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		56F6D7B225CA0EDF0075800B /* LaunchesViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewContainer.swift; sourceTree = "<group>"; };
+		56F6D7B725CA0EEA0075800B /* SettingsViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F6D76D25CA0D5E0075800B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6D78425CA0D710075800B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6D79425CA0DAA0075800B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5663CE7925CB1AB400B04C0F /* Launches */ = {
+			isa = PBXGroup;
+			children = (
+				56F6D7B225CA0EDF0075800B /* LaunchesViewContainer.swift */,
+				5663CE7C25CB1D2800B04C0F /* LaunchesView.swift */,
+				5663CE8425CB27C100B04C0F /* LaunchViewBigCell.swift */,
+				5663CE8225CB1E1600B04C0F /* LaunchViewCell.swift */,
+				5663CE7E25CB1DC500B04C0F /* Launch.swift */,
+			);
+			path = Launches;
+			sourceTree = "<group>";
+		};
+		5663CE7A25CB1ABD00B04C0F /* Wiki */ = {
+			isa = PBXGroup;
+			children = (
+				5663CE7725CB19E100B04C0F /* WikiView.swift */,
+			);
+			path = Wiki;
+			sourceTree = "<group>";
+		};
+		5663CE7B25CB1AC300B04C0F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				56F6D7B725CA0EEA0075800B /* SettingsViewContainer.swift */,
+				5663CE9425CDAFDE00B04C0F /* SettingsView.swift */,
+				5663CEA425CDBCCD00B04C0F /* SettingItems */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5663CEA425CDBCCD00B04C0F /* SettingItems */ = {
+			isa = PBXGroup;
+			children = (
+				5663CE9825CDBBF000B04C0F /* NotificationsView.swift */,
+				5663CE9A25CDBC6F00B04C0F /* AppIconView.swift */,
+				5663CE9C25CDBC9700B04C0F /* AboutView.swift */,
+				5663CE9E25CDBCA500B04C0F /* TipJarView.swift */,
+				5663CEA225CDBCC600B04C0F /* RateView.swift */,
+			);
+			path = SettingItems;
+			sourceTree = "<group>";
+		};
+		56F6D76725CA0D5E0075800B = {
+			isa = PBXGroup;
+			children = (
+				56F6D77225CA0D5E0075800B /* Astra */,
+				56F6D78825CA0D710075800B /* AstraUITests */,
+				56F6D79825CA0DAA0075800B /* MacAstra */,
+				56F6D77125CA0D5E0075800B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56F6D77125CA0D5E0075800B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F6D77025CA0D5E0075800B /* Astra.app */,
+				56F6D78725CA0D710075800B /* AstraUITests.xctest */,
+				56F6D79725CA0DAA0075800B /* MacAstra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F6D77225CA0D5E0075800B /* Astra */ = {
+			isa = PBXGroup;
+			children = (
+				5663CEA725CDF53300B04C0F /* sample.json */,
+				5663CEA525CDF34800B04C0F /* FetchData.swift */,
+				56F6D77325CA0D5E0075800B /* AstraApp.swift */,
+				56F6D77525CA0D5E0075800B /* MainView.swift */,
+				56F6D7AD25CA0E450075800B /* TabBarView.swift */,
+				5663CE7925CB1AB400B04C0F /* Launches */,
+				5663CE7A25CB1ABD00B04C0F /* Wiki */,
+				5663CE7B25CB1AC300B04C0F /* Settings */,
+				56F6D77725CA0D620075800B /* Assets.xcassets */,
+				56F6D77C25CA0D620075800B /* Info.plist */,
+				56F6D77925CA0D620075800B /* Preview Content */,
+			);
+			path = Astra;
+			sourceTree = "<group>";
+		};
+		56F6D77925CA0D620075800B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56F6D77A25CA0D620075800B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56F6D78825CA0D710075800B /* AstraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56F6D78925CA0D710075800B /* AstraUITests.swift */,
+				56F6D78B25CA0D710075800B /* Info.plist */,
+			);
+			path = AstraUITests;
+			sourceTree = "<group>";
+		};
+		56F6D79825CA0DAA0075800B /* MacAstra */ = {
+			isa = PBXGroup;
+			children = (
+				56F6D79925CA0DAA0075800B /* MacAstraApp.swift */,
+				56F6D79B25CA0DAA0075800B /* ContentView.swift */,
+				56F6D79D25CA0DAC0075800B /* Assets.xcassets */,
+				56F6D7A225CA0DAC0075800B /* Info.plist */,
+				56F6D7A325CA0DAC0075800B /* MacAstra.entitlements */,
+				56F6D79F25CA0DAC0075800B /* Preview Content */,
+			);
+			path = MacAstra;
+			sourceTree = "<group>";
+		};
+		56F6D79F25CA0DAC0075800B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56F6D7A025CA0DAC0075800B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56F6D76F25CA0D5E0075800B /* Astra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F6D77F25CA0D620075800B /* Build configuration list for PBXNativeTarget "Astra" */;
+			buildPhases = (
+				56F6D76C25CA0D5E0075800B /* Sources */,
+				56F6D76D25CA0D5E0075800B /* Frameworks */,
+				56F6D76E25CA0D5E0075800B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astra;
+			productName = Astra;
+			productReference = 56F6D77025CA0D5E0075800B /* Astra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56F6D78625CA0D710075800B /* AstraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F6D78E25CA0D710075800B /* Build configuration list for PBXNativeTarget "AstraUITests" */;
+			buildPhases = (
+				56F6D78325CA0D710075800B /* Sources */,
+				56F6D78425CA0D710075800B /* Frameworks */,
+				56F6D78525CA0D710075800B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F6D78D25CA0D710075800B /* PBXTargetDependency */,
+			);
+			name = AstraUITests;
+			productName = AstraUITests;
+			productReference = 56F6D78725CA0D710075800B /* AstraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		56F6D79625CA0DAA0075800B /* MacAstra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F6D7A425CA0DAC0075800B /* Build configuration list for PBXNativeTarget "MacAstra" */;
+			buildPhases = (
+				56F6D79325CA0DAA0075800B /* Sources */,
+				56F6D79425CA0DAA0075800B /* Frameworks */,
+				56F6D79525CA0DAA0075800B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAstra;
+			productName = MacAstra;
+			productReference = 56F6D79725CA0DAA0075800B /* MacAstra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F6D76825CA0D5E0075800B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					56F6D76F25CA0D5E0075800B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					56F6D78625CA0D710075800B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 56F6D76F25CA0D5E0075800B;
+					};
+					56F6D79625CA0DAA0075800B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 56F6D76B25CA0D5E0075800B /* Build configuration list for PBXProject "Astra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F6D76725CA0D5E0075800B;
+			productRefGroup = 56F6D77125CA0D5E0075800B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F6D76F25CA0D5E0075800B /* Astra */,
+				56F6D78625CA0D710075800B /* AstraUITests */,
+				56F6D79625CA0DAA0075800B /* MacAstra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F6D76E25CA0D5E0075800B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6D77B25CA0D620075800B /* Preview Assets.xcassets in Resources */,
+				56F6D77825CA0D620075800B /* Assets.xcassets in Resources */,
+				5663CEA825CDF53300B04C0F /* sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6D78525CA0D710075800B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6D79525CA0DAA0075800B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6D7A125CA0DAC0075800B /* Preview Assets.xcassets in Resources */,
+				56F6D79E25CA0DAC0075800B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F6D76C25CA0D5E0075800B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5663CEA325CDBCC600B04C0F /* RateView.swift in Sources */,
+				5663CE8525CB27C100B04C0F /* LaunchViewBigCell.swift in Sources */,
+				5663CE8325CB1E1600B04C0F /* LaunchViewCell.swift in Sources */,
+				56F6D7B825CA0EEA0075800B /* SettingsViewContainer.swift in Sources */,
+				56F6D77625CA0D5E0075800B /* MainView.swift in Sources */,
+				5663CE7F25CB1DC500B04C0F /* Launch.swift in Sources */,
+				5663CE7825CB19E100B04C0F /* WikiView.swift in Sources */,
+				5663CE9F25CDBCA500B04C0F /* TipJarView.swift in Sources */,
+				5663CE7D25CB1D2800B04C0F /* LaunchesView.swift in Sources */,
+				5663CEA625CDF34800B04C0F /* FetchData.swift in Sources */,
+				5663CE9B25CDBC6F00B04C0F /* AppIconView.swift in Sources */,
+				5663CE9D25CDBC9700B04C0F /* AboutView.swift in Sources */,
+				56F6D7AE25CA0E450075800B /* TabBarView.swift in Sources */,
+				56F6D77425CA0D5E0075800B /* AstraApp.swift in Sources */,
+				56F6D7B325CA0EDF0075800B /* LaunchesViewContainer.swift in Sources */,
+				5663CE9525CDAFDE00B04C0F /* SettingsView.swift in Sources */,
+				5663CE9925CDBBF000B04C0F /* NotificationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6D78325CA0D710075800B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6D78A25CA0D710075800B /* AstraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F6D79325CA0DAA0075800B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6D79C25CA0DAA0075800B /* ContentView.swift in Sources */,
+				56F6D79A25CA0DAA0075800B /* MacAstraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56F6D78D25CA0D710075800B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F6D76F25CA0D5E0075800B /* Astra */;
+			targetProxy = 56F6D78C25CA0D710075800B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56F6D77D25CA0D620075800B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56F6D77E25CA0D620075800B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56F6D78025CA0D620075800B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Astra/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8CL37543D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Astra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.noeduran.Astra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56F6D78125CA0D620075800B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Astra/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8CL37543D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Astra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.noeduran.Astra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56F6D78F25CA0D710075800B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L2XT335K;
+				INFOPLIST_FILE = AstraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.noeduran.AstraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astra;
+			};
+			name = Debug;
+		};
+		56F6D79025CA0D710075800B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L2XT335K;
+				INFOPLIST_FILE = AstraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.noeduran.AstraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astra;
+			};
+			name = Release;
+		};
+		56F6D7A525CA0DAC0075800B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacAstra/MacAstra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAstra/Preview Content\"";
+				DEVELOPMENT_TEAM = 58L2XT335K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacAstra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = co.noeduran.MacAstra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56F6D7A625CA0DAC0075800B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacAstra/MacAstra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAstra/Preview Content\"";
+				DEVELOPMENT_TEAM = 58L2XT335K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacAstra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = co.noeduran.MacAstra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F6D76B25CA0D5E0075800B /* Build configuration list for PBXProject "Astra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6D77D25CA0D620075800B /* Debug */,
+				56F6D77E25CA0D620075800B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F6D77F25CA0D620075800B /* Build configuration list for PBXNativeTarget "Astra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6D78025CA0D620075800B /* Debug */,
+				56F6D78125CA0D620075800B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F6D78E25CA0D710075800B /* Build configuration list for PBXNativeTarget "AstraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6D78F25CA0D710075800B /* Debug */,
+				56F6D79025CA0D710075800B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F6D7A425CA0DAC0075800B /* Build configuration list for PBXNativeTarget "MacAstra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F6D7A525CA0DAC0075800B /* Debug */,
+				56F6D7A625CA0DAC0075800B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56F6D76825CA0D5E0075800B /* Project object */;
+}
